@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  background: #FF704F;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: auto;
+}
+
+.navbar ul li:hover,
+.navbar ul li a:active {
+  color: violet;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #FFD1B6;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+}
+
+.button-1 {
+  color: red;
+}
+
+form .form-group {
+  margin-bottom: 1em;
+  color: #fff;
+}
+form .form-control {
+  display: block;
+  width: 100%;
+  padding: 1em;
+  border-radius: 2px;
+}
+form .button-1 {
+  display: inline-block;
+  width: 100%;
+}
+
+.navbar .logo {
+  float: left;
+  margin-top: 1em;
+}
+.navbar ul {
+  float: right;
+  margin-top: 2em;
+}
+.navbar ul li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.showcase-container {
+  display: flex;
+  margin-top: 8em;
+}
+.showcase-container h3 {
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #FFD1B6;
+  margin-bottom: 1em;
+}
+.showcase-container h1 {
+  color: #fff;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.showcase-container h1 span {
+  color: #edbbcc;
+}
+.showcase-container p {
+  width: 90%;
+  font-size: 1.3em;
+  color: #fff;
+  line-height: 30px;
+  margin-bottom: 2em;
+}
+
+#services h2 {
+  font-size: 3.5em;
+  font-weight: lighter;
+  text-align: center;
+  color: #FFD1B6;
+  margin-bottom: 0.5em;
+}
+#services p {
+  font-size: 1.2em;
+  width: 70%;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+#services .services-row {
+  display: flex;
+}
+#services .services-row h3 {
+  text-align: center;
+  margin: 2em 0 1em 0;
+  color: #08ee17;
+  font-weight: lighter;
+}
+#services .services-row p {
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+#services .services-row img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 50%;
+  padding-top: 4rem;
+}
+#services .services-row img:hover {
+  transform: scale(1.3);
+  transition: all 0.5s ease-in-out;
+}
+
+#contact h2 {
+  font-size: 3.5em;
+  font-weight: lighter;
+  text-align: center;
+  color: #FFD1B6;
+  margin: 2em;
+}
+#contact form {
+  width: 60%;
+  margin: 0 auto;
+}
+#contact form .button-2 {
+  width: 100%;
+  margin-bottom: 3em;
+  border-radius: 50px;
+}
+
+#footer {
+  text-align: center;
+  padding: 3em;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,35 @@
+.navbar .logo {
+  float: none;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1em;
+}
+.navbar ul {
+  float: none;
+  text-align: center;
+  margin: 1em;
+}
+.navbar ul li {
+  display: inline-block;
+}
+
+.showcase-container {
+  display: block;
+}
+.showcase-container .showcase-content {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+.showcase-container .showcase-img img {
+  width: 70%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#services .services-row {
+  display: block;
+}/*# sourceMappingURL=mobile.css.map */
